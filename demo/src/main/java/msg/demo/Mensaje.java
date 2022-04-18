@@ -10,7 +10,7 @@ public class Mensaje {
     @GetMapping
     public String imprimir()
     {
-        String msg = new String("David paga la pension");
+        String msg = new String("Aplicacion web muy sencilla");
         return msg;
     }
 }
